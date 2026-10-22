@@ -90,6 +90,20 @@ Food & Beverages was the only product line in the provided April–May compariso
 - Observed month-to-month changes are descriptive. The dataset alone does not establish why sales changed.
 - Check the dataset's original licence and attribution requirements before publishing the raw data publicly.
 
+## Visual Analysis
+
+### Sales by Product Line
+![Sales by Product Line](outputs/charts/sales_by_product.png)
+
+### Sales by Branch
+![Sales by Branch](outputs/charts/sales_by_branch.png)
+
+### Sales by Payment Method
+![Sales by Payment Method](outputs/charts/sales_by_payment.png)
+
+### Monthly Sales Trend
+![Monthly Sales Trend](outputs/charts/monthly_sales_trend.png)
+
 ## How to run
 From the project root, activate your virtual environment and install dependencies:
 ```powershell
