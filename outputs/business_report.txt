@@ -1,0 +1,53 @@
+SUPERMARKET SALES ANALYSIS — BUSINESS SUMMARY
+================================================
+
+Overview
+--------
+This report summarises 5,053 records dated from 01 Jan 2024 to 31 Dec 2024.
+Sales amount is calculated as Unit price × Quantity. Currency is not labelled in the columns reviewed.
+
+Headline metrics
+----------------
+Total calculated sales: 942,544.85
+Total units sold: 23,211
+Records analysed: 5,053
+
+Highest sales by category
+-------------------------
+Product line: Home & Lifestyle (197,260.56)
+Branch: Brooklyn (319,705.48)
+Payment method: Ewallet (326,691.31)
+
+April–May 2024 comparison
+------------------------
+April calculated sales: 132,083.88
+May calculated sales: 60,955.78
+Change in calculated sales: -53.9%
+Change in record count: -6.7%
+Change in units sold: -51.8%
+Change in average units per record: -48.3%
+
+Interpretation
+--------------
+Calculated sales fell much more sharply than record count between April and May.
+The reduction coincided with lower units sold and lower average quantity per record.
+Food & Beverages calculated sales increased between those months, while the other
+product lines declined in the provided comparison.
+
+Data quality checks
+-------------------
+Initial inspection found 0 missing values and 0 exact duplicate rows.
+Date conversion found 0 invalid dates.
+Non-positive unit prices: 0
+Non-positive quantities: 0
+
+Limitations
+-----------
+- Sales is calculated from unit price multiplied by quantity.
+- Currency is not explicitly labelled in the columns reviewed.
+- The dataset has no cost data, so profit cannot be estimated.
+- Rows are called records because a unique order ID was not verified.
+- This analysis describes patterns; it does not establish causes.
+- Verify the dataset's licence and attribution terms before public redistribution.
+
+Prepared as a portfolio practice project using Python and Pandas.
